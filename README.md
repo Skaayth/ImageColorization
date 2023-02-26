@@ -6,6 +6,8 @@ This project invovles adding color to monochrome - black-and-white - images, thr
 ## Aim
 To build a deep neural network with associated data pipelines and applying state of the art image colorization techniques.
 
+![20129](https://github.com/Skaayth/ImageColorization/blob/main/result1.png)
+
 ## How?
 By implement a U-Net architecture that attempts to colorize 64x64 images taken from the Imagenet dataset. The network is used to implement two different methods of colorization, one through regression and the other through classification. The training was done on a dataset of 50000 images for the regression, and 30000 for classification. The results indicate successful colorizations using both methods with the U-net architecture.
 
